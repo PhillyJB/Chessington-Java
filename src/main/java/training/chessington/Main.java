@@ -1,6 +1,7 @@
 package training.chessington;
 
 import javafx.application.Application;
+//import com.apple.eawt.Application;
 import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -8,6 +9,8 @@ import javafx.stage.Stage;
 import training.chessington.model.Board;
 import training.chessington.model.Game;
 import training.chessington.view.ChessApp;
+
+import static javafx.application.Application.launch;
 
 public class Main extends Application {
 
