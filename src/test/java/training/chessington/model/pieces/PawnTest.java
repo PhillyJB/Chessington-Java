@@ -38,6 +38,6 @@ public class PawnTest {
         List<Move> moves = pawn.getAllowedMoves(coords, board);
 
         // Assert
-        assertThat(moves).contains(new Move(coords, coords.plus(1, 0)));
+         assertThat(moves).contains(new Move(coords, coords.plus(1, 0)));
     }
 }
